@@ -1,0 +1,365 @@
+.eviro,
+.home2 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.eviro {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  min-width: 124px;
+}
+.home2 {
+  font-weight: 500;
+  min-width: 47px;
+}
+.button4,
+.items2 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button4 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-sm) var(--padding-4xl) var(--padding-sm)
+    var(--padding-5xl);
+}
+.items2 {
+  cursor: pointer;
+}
+.eviro-parent,
+.items-wrapper,
+.items2 {
+  display: flex;
+  align-items: flex-start;
+}
+.items-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.eviro-parent {
+  width: 1280px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--enviro-size);
+  color: var(--color-black);
+  font-family: var(--subheading);
+}
+.about-us {
+  margin: 0;
+  width: 625px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.at-enviro-we {
+  margin: 0;
+  font-weight: 500;
+}
+.why-we-do {
+  font-size: var(--subheading-size);
+  font-family: var(--subheading);
+}
+.the-world-generates {
+  font-weight: 500;
+}
+.why-we-do-what-we-do-the-world {
+  margin: 0;
+}
+.blank-line {
+  margin: 0;
+  font-weight: 500;
+}
+.our-vision {
+  font-size: var(--subheading-size);
+  font-family: var(--subheading);
+}
+.to-create-a {
+  font-weight: 500;
+}
+.our-vision-to-create-a-world-w {
+  margin: 0;
+}
+.blank-line1 {
+  margin: 0;
+  font-weight: 500;
+}
+.our-commitment {
+  margin: 0;
+  font-size: var(--subheading-size);
+}
+.to-promote-sustainability-thro2 {
+  font-weight: 500;
+}
+.to-promote-sustainability-thro1 {
+  margin-bottom: 0;
+}
+.to-empower-communities-to-recy1 {
+  font-weight: 500;
+}
+.to-empower-communities-to-recy {
+  margin-bottom: 0;
+}
+.to-connect-users-with-trusted1 {
+  font-weight: 500;
+}
+.to-connect-users-with-trusted {
+  margin-bottom: 0;
+}
+.to-promote-sustainability-thro {
+  margin: 0;
+  padding-left: 29px;
+}
+.blank-line3 {
+  font-weight: 500;
+}
+.blank-line2 {
+  margin: 0;
+}
+.join-us-in-our-journey-to-crea1 {
+  font-weight: 500;
+}
+.b {
+  font-family: var(--subheading);
+}
+.join-us-in-our-journey-to-crea {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.image-4-icon,
+.paragraph {
+  position: relative;
+  max-width: 100%;
+}
+.paragraph {
+  width: 624px;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  min-height: 1015px;
+}
+.image-4-icon {
+  width: 659px;
+  max-height: 100%;
+  object-fit: contain;
+}
+.enviro-turning,
+.together-we-can {
+  margin: 0;
+}
+.paragraph1 {
+  margin: 0;
+  height: 73px;
+  width: 625px;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.paragraph-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.image-4-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.about-us-parent,
+.frame-wrapper2,
+.image-4-parent,
+.paragraph-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper2 {
+  flex: 1;
+  flex-direction: column;
+  padding: 181px 0 0;
+  box-sizing: border-box;
+  min-width: 441px;
+  font-size: 30px;
+}
+.about-us-parent,
+.paragraph-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--font-size-3xl);
+}
+.about-us-parent {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--subheading);
+}
+.divider2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.envirogmailin,
+.httpswwwenvirocomhome2 {
+  margin: 0;
+}
+.httpswwwenvirocomhome-en2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.divider-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.buttons-icon10,
+.buttons-icon11,
+.buttons-icon8,
+.buttons-icon9 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+}
+.about,
+.buttons-icon-group,
+.frame-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons-icon-group {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.about,
+.frame-section {
+  flex-direction: column;
+}
+.frame-section {
+  width: 1280px;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--subheading);
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-27xl) var(--padding-22xl) var(--padding-29xl)
+    var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-107xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .paragraph {
+    flex: 1;
+  }
+  .paragraph-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-us {
+    font-size: var(--font-size-10xl);
+  }
+  .paragraph,
+  .paragraph1 {
+    font-size: var(--font-size-lg);
+    line-height: 38px;
+  }
+  .paragraph1 {
+    line-height: 27px;
+  }
+  .frame-wrapper2 {
+    padding-top: 77px;
+    box-sizing: border-box;
+  }
+  .httpswwwenvirocomhome-en2 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frame-section {
+    gap: var(--gap-mid);
+  }
+  .about {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-wrapper2 {
+    min-width: 100%;
+  }
+  .divider-container {
+    gap: var(--gap-base);
+  }
+  .frame-section {
+    gap: var(--gap-16xl);
+  }
+  .about {
+    gap: 63px;
+    padding-left: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us {
+    font-size: var(--enviro-size);
+  }
+  .paragraph {
+    min-width: 100%;
+  }
+  .paragraph1 {
+    font-size: var(--subheading-size);
+    line-height: 36px;
+  }
+  .frame-wrapper2 {
+    padding-top: 118px;
+    box-sizing: border-box;
+  }
+}

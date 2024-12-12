@@ -1,0 +1,623 @@
+.enviro4 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 150%;
+    font-weight: 900;
+    font-family: inherit;
+  }
+  .frame-icon {
+    align-self: stretch;
+    height: 256px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .enviro-parent1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-27xl);
+    min-width: 406px;
+    max-width: 100%;
+  }
+  .home5 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 47px;
+  }
+  .button16,
+  .items6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button16 {
+    box-shadow: var(--button-shadow);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gray-200);
+    padding: var(--padding-sm) var(--padding-4xl) var(--padding-sm)
+      var(--padding-5xl);
+  }
+  .items6 {
+    cursor: pointer;
+  }
+  .product-name3 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .description3,
+  .know-more3 {
+    position: relative;
+    font-size: var(--body-text-size);
+    line-height: 150%;
+    color: var(--color-gray-100);
+  }
+  .know-more3 {
+    font-size: var(--small-text-size);
+    font-weight: 500;
+    font-family: var(--subheading);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .button17 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-195xl);
+    background-color: var(--color-gray-200);
+    align-self: stretch;
+    box-shadow: var(--button-shadow);
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .button17:hover {
+    background-color: var(--color-dimgray);
+  }
+  .product-details,
+  .product-info2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .product-details {
+    align-items: flex-start;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+  }
+  .product-info2 {
+    align-items: flex-end;
+    gap: var(--gap-37xl);
+  }
+  .frame-parent2,
+  .product-info-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .product-info-wrapper {
+    width: 515px;
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--small-text-size);
+    color: var(--color-white);
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-121xl);
+  }
+  .related-products3 {
+    margin: 0;
+    width: 626px;
+    position: relative;
+    font-size: inherit;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .hard-drives,
+  .image-icon13 {
+    align-self: stretch;
+    position: relative;
+  }
+  .image-icon13 {
+    height: 238px;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .hard-drives {
+    font-size: var(--subheading-size);
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .description-of-first1 {
+    color: var(--color-gray-100);
+  }
+  .description-of-first1,
+  .inr-200kg {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .card13,
+  .copy14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copy14 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .card13 {
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 384px;
+    max-width: 100%;
+  }
+  .image-icon14,
+  .motherboards {
+    align-self: stretch;
+    position: relative;
+  }
+  .image-icon14 {
+    height: 238px;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .motherboards {
+    font-size: var(--subheading-size);
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .description-of-second1 {
+    color: var(--color-gray-100);
+  }
+  .description-of-second1,
+  .inr-150kg {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .card14,
+  .copy15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copy15 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .card14 {
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 384px;
+    max-width: 100%;
+  }
+  .image-icon15,
+  .memory-chips {
+    align-self: stretch;
+    position: relative;
+  }
+  .image-icon15 {
+    height: 238px;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .memory-chips {
+    font-size: var(--subheading-size);
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .description-of-third1 {
+    color: var(--color-gray-100);
+  }
+  .description-of-third1,
+  .inr-2000kg {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .card15,
+  .copy16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copy16 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .card15 {
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 384px;
+    max-width: 100%;
+  }
+  .image-icon16,
+  .lithium-batteries {
+    align-self: stretch;
+    position: relative;
+  }
+  .image-icon16 {
+    height: 238px;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .lithium-batteries {
+    font-size: var(--subheading-size);
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .description-of-fourth1 {
+    color: var(--color-gray-100);
+  }
+  .description-of-fourth1,
+  .inr-150kg1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .card16,
+  .copy17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copy17 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .card16 {
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 384px;
+    max-width: 100%;
+  }
+  .cpu-processors,
+  .image-icon17 {
+    align-self: stretch;
+    position: relative;
+  }
+  .image-icon17 {
+    height: 238px;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .cpu-processors {
+    font-size: var(--subheading-size);
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .description-of-fifth {
+    color: var(--color-gray-100);
+  }
+  .description-of-fifth,
+  .inr-700kg {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+  }
+  .card17,
+  .copy18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .copy18 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .card17 {
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 384px;
+    max-width: 100%;
+  }
+  .card-grid3,
+  .related-products-group {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .card-grid3 {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: var(--gap-xl);
+    font-size: var(--body-text-size);
+  }
+  .related-products-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .divider6,
+  .main {
+    align-self: stretch;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-23xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--enviro-size);
+    color: var(--color-darkseagreen);
+    font-family: var(--subheading);
+  }
+  .divider6 {
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+  }
+  .envirogmailine3,
+  .httpswwwenvirocomhome6 {
+    margin: 0;
+  }
+  .httpswwwenvirocomhome-en6 {
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .contact {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-14xl);
+    max-width: 100%;
+  }
+  .buttons-icon24,
+  .buttons-icon25,
+  .buttons-icon26,
+  .buttons-icon27 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    object-fit: cover;
+  }
+  .electronic-waste1,
+  .footer1,
+  .social-icons3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-icons3 {
+    flex-direction: row;
+    gap: var(--gap-5xs);
+  }
+  .electronic-waste1,
+  .footer1 {
+    flex-direction: column;
+  }
+  .footer1 {
+    align-self: stretch;
+    gap: var(--gap-51xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--subheading-size);
+    color: var(--color-black);
+    font-family: var(--subheading);
+  }
+  .electronic-waste1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    padding: var(--padding-27xl) var(--padding-59xl) var(--padding-29xl)
+      var(--padding-61xl);
+    box-sizing: border-box;
+    gap: var(--gap-485xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .product-info-wrapper {
+      flex: 1;
+    }
+    .frame-parent2 {
+      gap: var(--gap-51xl);
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .enviro4 {
+      font-size: var(--font-size-19xl);
+      line-height: 58px;
+    }
+    .product-name3 {
+      font-size: var(--font-size-13xl);
+      line-height: 38px;
+    }
+    .related-products3 {
+      font-size: var(--font-size-7xl);
+      line-height: 38px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .enviro4 {
+      font-size: var(--font-size-10xl);
+      line-height: 43px;
+    }
+    .product-name3 {
+      font-size: var(--subheading-size);
+      line-height: 29px;
+    }
+    .description3 {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .button17 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .frame-parent2 {
+      gap: var(--gap-mid);
+    }
+    .hard-drives,
+    .related-products3 {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .description-of-first1,
+    .inr-200kg {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .card13 {
+      min-width: 100%;
+    }
+    .motherboards {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .description-of-second1,
+    .inr-150kg {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .card14 {
+      min-width: 100%;
+    }
+    .memory-chips {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .description-of-third1,
+    .inr-2000kg {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .card15 {
+      min-width: 100%;
+    }
+    .lithium-batteries {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .description-of-fourth1,
+    .inr-150kg1 {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .card16 {
+      min-width: 100%;
+    }
+    .cpu-processors {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .description-of-fifth,
+    .inr-700kg {
+      font-size: var(--small-text-size);
+      line-height: 24px;
+    }
+    .card17 {
+      min-width: 100%;
+    }
+    .httpswwwenvirocomhome-en6 {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .footer1 {
+      gap: var(--gap-mid);
+    }
+    .electronic-waste1 {
+      gap: var(--gap-107xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .enviro-parent1 {
+      gap: var(--gap-4xl);
+      min-width: 100%;
+    }
+    .product-info2 {
+      gap: var(--gap-9xl);
+    }
+    .product-info-wrapper {
+      min-width: 100%;
+    }
+    .frame-parent2 {
+      gap: var(--gap-16xl);
+    }
+    .related-products-group {
+      gap: var(--gap-base);
+    }
+    .main {
+      gap: var(--gap-2xl);
+    }
+    .contact {
+      gap: var(--gap-base);
+    }
+    .footer1 {
+      gap: var(--gap-16xl);
+    }
+    .electronic-waste1 {
+      gap: var(--gap-233xl);
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+  }
+  
