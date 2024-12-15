@@ -1,857 +1,990 @@
 .image-5-icon {
-    position: absolute;
-    top: -21px;
-    left: 0;
-    width: 1510px;
-    height: 798px;
-    object-fit: contain;
-  }
-  .tap-to-chat {
-    margin: 0;
-    flex: 1;
-    position: relative;
-    font-size: inherit;
-    letter-spacing: -0.02em;
-    line-height: 140%;
-    font-weight: 700;
-    font-family: inherit;
-    display: inline-block;
-    max-width: 100%;
-  }
-  .chat-prompt {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0 var(--padding-xl);
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .or-pick-your {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--subheading-size);
-    line-height: 140%;
-    font-weight: 800;
-  }
-  .copy8,
-  .page-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 100%;
-  }
-  .page-title {
-    align-self: stretch;
-    align-items: flex-start;
-    gap: var(--gap-base);
-  }
-  .copy8 {
-    position: absolute;
-    top: 284px;
-    left: 299px;
-    width: 844px;
-    align-items: center;
-    z-index: 1;
-  }
-  .more {
-    position: relative;
-    font-size: var(--small-text-size);
-    line-height: 150%;
-    font-weight: 500;
-    font-family: var(--subheading);
-    color: var(--color-white);
-    text-align: left;
-    display: inline-block;
-    min-width: 41px;
-  }
-  .button5,
-  .home3 {
-    position: absolute;
-    display: flex;
-    z-index: 2;
-  }
-  .button5 {
-    cursor: pointer;
-    border: 2px solid var(--color-white);
-    padding: var(--padding-2xs) 19px var(--padding-2xs) var(--padding-5xl);
-    background-color: transparent;
-    top: 0;
-    left: 1192px;
-    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05));
-    border-radius: var(--br-5xs);
-    box-sizing: border-box;
-    width: 88px;
-    height: 52px;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .button5:hover {
-    background-color: rgba(230, 230, 230, 0.09);
-    border: 2px solid var(--color-gainsboro-100);
-    box-sizing: border-box;
-  }
-  .home3 {
-    top: 11px;
-    left: 0;
-    line-height: 150%;
-    font-weight: 500;
-    align-items: center;
-    width: 58px;
-    height: 30px;
-    min-width: 58px;
-  }
-  .header-buttons {
-    position: absolute;
-    top: 56px;
-    left: 80px;
-    width: 1280px;
-    height: 52px;
-    text-align: left;
-    font-size: var(--body-text-size);
-  }
-  .dimmer {
-    height: 720px;
-    flex: 1;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.24);
-    max-width: 100%;
-  }
-  .header-with-image {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-image: url(./public/header-with-image@3x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    max-width: 100%;
-    text-align: center;
-    font-size: 59px;
-    color: var(--color-white);
-    font-family: var(--subheading);
-  }
-  .plastic-waste1 {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-21xl);
-    line-height: 120%;
-    font-weight: 600;
-    font-family: inherit;
-  }
-  .plastics-are-materials {
-    position: relative;
-    line-height: 150%;
-    color: var(--color-gray-100);
-  }
-  .scrap-now {
-    position: relative;
-    line-height: 150%;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 123px;
-  }
-  .button6 {
-    box-shadow: var(--button-shadow);
-    border-radius: var(--br-5xs);
-    background-color: var(--color-gray-200);
-    flex-direction: row;
-    padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
-      var(--padding-5xl);
-  }
-  .button6,
-  .buttons,
-  .plastic-waste-description,
-  .plastic-waste-parent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .buttons {
-    flex-direction: row;
-    cursor: pointer;
-    color: var(--color-white);
-  }
-  .plastic-waste-description,
-  .plastic-waste-parent {
-    flex-direction: column;
-  }
-  .plastic-waste-parent {
-    align-self: stretch;
-    gap: var(--gap-5xl);
-  }
-  .plastic-waste-description {
-    width: 516px;
-    padding: 0 0 var(--padding-31xl);
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .paper-waste-content {
-    width: 624px;
-    position: relative;
-    max-height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-  }
-  .plastic-waste-content {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    max-width: 100%;
-    gap: var(--gap-xl);
-  }
-  .plastic-waste-content-child {
-    width: 625px;
-    position: relative;
-    max-height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-  }
-  .paper-waste1 {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-21xl);
-    line-height: 120%;
-    font-weight: 600;
-    font-family: inherit;
-  }
-  .paper-is-manufactured {
-    position: relative;
-    line-height: 150%;
-    color: var(--color-gray-100);
-  }
-  .scrap-now1 {
-    position: relative;
-    line-height: 150%;
-    font-weight: 500;
-  }
-  .button7 {
-    box-shadow: var(--button-shadow);
-    border-radius: var(--br-5xs);
-    background-color: var(--color-gray-200);
-    flex-direction: row;
-    padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
-      var(--padding-5xl);
-  }
-  .button7,
-  .buttons1,
-  .paper-waste-description {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .buttons1 {
-    flex-direction: row;
-    cursor: pointer;
-    color: var(--color-white);
-  }
-  .paper-waste-description {
-    align-self: stretch;
-    flex-direction: column;
-    gap: var(--gap-5xl);
-  }
-  .paper-waste-description-wrapper {
-    width: 516px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-sm);
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-  .plastic-waste-content1 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    max-width: 100%;
-    gap: var(--gap-xl);
-  }
-  .content,
-  .plastic-waste-card {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 100%;
-  }
-  .plastic-waste-card {
-    flex: 1;
-    flex-direction: column;
-    gap: 80px;
-  }
-  .content {
-    align-self: stretch;
-    flex-direction: row;
-    padding: 0 82px var(--padding-27xl) var(--padding-61xl);
-    box-sizing: border-box;
-    text-align: left;
-    font-size: var(--subheading-size);
-    color: var(--color-gray-200);
-    font-family: var(--subheading);
-  }
-  .metal-waste {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: inherit;
-    line-height: 120%;
-    font-weight: 600;
-    font-family: inherit;
-  }
-  .scrap-metal-is,
-  .scrap-now2 {
-    position: relative;
-    font-size: var(--subheading-size);
-    line-height: 150%;
-    color: var(--color-gray-100);
-  }
-  .scrap-now2 {
-    font-weight: 500;
-    font-family: var(--subheading);
-    color: var(--color-white);
-    text-align: left;
-  }
-  .button8,
-  .metal-waste-parent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .button8 {
-    cursor: pointer;
-    border: 0;
-    padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
-      var(--padding-5xl);
-    background-color: var(--color-gray-200);
-    box-shadow: var(--button-shadow);
-    border-radius: var(--br-5xs);
-    flex-direction: row;
-  }
-  .button8:hover {
+  position: absolute;
+  top: -21px;
+  left: 0;
+  width: 1510px;
+  height: 798px;
+  object-fit: contain;
+}
+
+.tap-to-chat {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.chat-prompt {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.or-pick-your {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subheading-size);
+  line-height: 140%;
+  font-weight: 800;
+}
+
+.copy8,
+.page-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.page-title {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+
+.copy8 {
+  position: absolute;
+  top: 284px;
+  left: 299px;
+  width: 844px;
+  align-items: center;
+  z-index: 1;
+}
+
+.more {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--subheading);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 41px;
+}
+
+.button5,
+.home3 {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+}
+
+.button5 {
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  padding: var(--padding-2xs) 19px var(--padding-2xs) var(--padding-5xl);
+  background-color: transparent;
+  top: 0;
+  left: 1192px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05));
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 88px;
+  height: 52px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button5:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+
+.home3 {
+  top: 11px;
+  left: 0;
+  line-height: 150%;
+  font-weight: 500;
+  align-items: center;
+  width: 58px;
+  height: 30px;
+  min-width: 58px;
+  cursor: pointer;
+}
+
+.header-buttons {
+  position: absolute;
+  top: 56px;
+  left: 80px;
+  width: 1280px;
+  height: 52px;
+  text-align: left;
+  font-size: var(--body-text-size);
+}
+
+.dimmer {
+  height: 720px;
+  flex: 1;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.24);
+  max-width: 100%;
+}
+
+.header-with-image {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(./public/header-with-image@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: center;
+  font-size: 59px;
+  color: var(--color-white);
+  font-family: var(--subheading);
+}
+
+.plastic-waste1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.plastics-are-materials {
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+
+.scrap-now {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 123px;
+}
+
+.button6 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs) var(--padding-5xl);
+}
+
+.button6,
+.buttons,
+.plastic-waste-description,
+.plastic-waste-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttons {
+  flex-direction: row;
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.plastic-waste-description,
+.plastic-waste-parent {
+  flex-direction: column;
+}
+
+.plastic-waste-parent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+
+.plastic-waste-description {
+  width: 516px;
+  padding: 0 0 var(--padding-31xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.paper-waste-content {
+  width: 624px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.plastic-waste-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.plastic-waste-content-child {
+  width: 625px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.paper-waste1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.paper-is-manufactured {
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+
+.scrap-now1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.button7 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs) var(--padding-5xl);
+}
+
+.button7,
+.buttons1,
+.paper-waste-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttons1 {
+  flex-direction: row;
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.paper-waste-description {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+
+.paper-waste-description-wrapper {
+  width: 516px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.plastic-waste-content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.content,
+.plastic-waste-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.plastic-waste-card {
+  flex: 1;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 82px var(--padding-27xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-gray-200);
+  font-family: var(--subheading);
+}
+
+.metal-waste {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.scrap-metal-is,
+.scrap-now2 {
+  position: relative;
+  font-size: var(--subheading-size);
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+
+.scrap-now2 {
+  font-weight: 500;
+  font-family: var(--subheading);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.button8,
+.metal-waste-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button8 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs) var(--padding-5xl);
+  background-color: var(--color-gray-200);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+}
+
+/* .button8:hover {
     background-color: var(--color-dimgray);
+  } */
+.metal-waste-parent {
+  width: 516px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+
+.ewaste-content-icon {
+  align-self: stretch;
+  height: 400px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.ewaste-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 22px;
+  box-sizing: border-box;
+  min-width: 406px;
+  max-width: 100%;
+}
+
+.metal-waste-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-121xl);
+  max-width: 100%;
+}
+
+.ewaste-description-child {
+  width: 625px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.electronic-waste {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.e-waste-is-electronic {
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+
+.scrap-now3 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.button9,
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button9 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs) var(--padding-5xl);
+}
+
+.buttons2 {
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.ewaste-call-to-action,
+.ewaste-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ewaste-call-to-action {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.ewaste-info {
+  width: 516px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.ewaste-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--subheading-size);
+}
+
+.metal-waste-card,
+.metal-waste-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.metal-waste-content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-39xl);
+}
+
+.metal-waste-card {
+  flex-direction: row;
+  padding: 0 var(--padding-46xl) var(--padding-27xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-200);
+  font-family: var(--subheading);
+}
+
+.others,
+.these-include-rubbers {
+  align-self: stretch;
+  position: relative;
+}
+
+.others {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.these-include-rubbers {
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+
+.scrap-now4 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.button10 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs) var(--padding-5xl);
+}
+
+.button10,
+.buttons3,
+.other-info,
+.other-info-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttons3 {
+  flex-direction: row;
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.other-info,
+.other-info-wrapper {
+  flex-direction: column;
+}
+
+.other-info {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+
+.other-info-wrapper {
+  padding: var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+  min-width: 516px;
+  max-width: 100%;
+}
+
+.empty-card-icon {
+  width: 624px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.other-content,
+.other-description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.other-description {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.other-content {
+  width: 1426px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-46xl);
+  box-sizing: border-box;
+}
+
+.divider3 {
+  height: 1px;
+  width: 1281px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  right: -704px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+
+.farak-padta-hai {
+  margin: 0;
+  height: 164px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.footer-content {
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: calc(100% - 497px);
+}
+
+.envirogmailin1,
+.httpswwwenvirocomhome3 {
+  margin: 0;
+}
+
+.httpswwwenvirocomhome-en3 {
+  position: relative;
+  line-height: 150%;
+}
+
+.buttons-icon12,
+.buttons-icon13,
+.buttons-icon14,
+.buttons-icon15 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+}
+
+.httpswwwenvirocomhome-en-parent,
+.social-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.social-icons {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+}
+
+.httpswwwenvirocomhome-en-parent {
+  flex-direction: column;
+  gap: 9px;
+}
+
+.contact-info,
+.navigation-footer {
+  flex-shrink: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.contact-info {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+  max-width: calc(100% - 794px);
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-white);
+  font-family: var(--subheading);
+}
+
+.navigation-footer {
+  align-self: stretch;
+  height: 170px;
+  background-color: var(--color-darkseagreen);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-mid) 8px;
+  gap: 154px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-jura);
+}
+
+.other-waste-card,
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.other-waste-card {
+  align-self: stretch;
+  gap: 117px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-gray-200);
+  font-family: var(--subheading);
+}
+
+.shop {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #c3baba, #fff 60%);
+  overflow: hidden;
+  padding: 0 0 76px;
+  box-sizing: border-box;
+  gap: 120px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1050px) {
+  .content {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
   }
+
   .metal-waste-parent {
-    width: 516px;
-    flex-direction: column;
-    gap: var(--gap-5xl);
-    max-width: 100%;
-  }
-  .ewaste-content-icon {
-    align-self: stretch;
-    height: 400px;
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-  }
-  .ewaste-card {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 0 22px;
-    box-sizing: border-box;
-    min-width: 406px;
-    max-width: 100%;
   }
+
   .metal-waste-description {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: var(--gap-121xl);
-    max-width: 100%;
+    flex-wrap: wrap;
   }
-  .ewaste-description-child {
-    width: 625px;
-    position: relative;
-    max-height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-  }
-  .electronic-waste {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-21xl);
-    line-height: 120%;
-    font-weight: 600;
-    font-family: inherit;
-  }
-  .e-waste-is-electronic {
-    position: relative;
-    line-height: 150%;
-    color: var(--color-gray-100);
-  }
-  .scrap-now3 {
-    position: relative;
-    line-height: 150%;
-    font-weight: 500;
-  }
-  .button9,
-  .buttons2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .button9 {
-    box-shadow: var(--button-shadow);
-    border-radius: var(--br-5xs);
-    background-color: var(--color-gray-200);
-    padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
-      var(--padding-5xl);
-  }
-  .buttons2 {
-    cursor: pointer;
-    color: var(--color-white);
-  }
-  .ewaste-call-to-action,
-  .ewaste-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .ewaste-call-to-action {
-    align-self: stretch;
-    justify-content: flex-start;
-    gap: var(--gap-5xl);
-  }
-  .ewaste-info {
-    width: 516px;
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-sm);
+
+  .metal-waste-card {
+    padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
-    max-width: 100%;
   }
-  .ewaste-description {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    max-width: 100%;
-    gap: var(--gap-xl);
-    font-size: var(--subheading-size);
+}
+
+@media screen and (max-width: 750px) {
+  .tap-to-chat {
+    font-size: 47px;
+    line-height: 66px;
   }
-  .metal-waste-card,
+
+  .plastic-waste1 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .plastic-waste-description {
+    min-width: 100%;
+  }
+
+  .paper-waste1 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .paper-waste-description-wrapper {
+    min-width: 100%;
+  }
+
+  .plastic-waste-card {
+    gap: 40px;
+  }
+
+  .content {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+
+  .metal-waste {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .ewaste-card,
+  .metal-waste-parent {
+    min-width: 100%;
+  }
+
+  .metal-waste-description {
+    gap: var(--gap-16xl);
+  }
+
+  .electronic-waste {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .ewaste-info {
+    min-width: 100%;
+  }
+
   .metal-waste-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 100%;
+    gap: var(--gap-10xl);
   }
-  .metal-waste-content {
-    flex: 1;
-    flex-direction: column;
+
+  .others {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .other-info-wrapper {
+    min-width: 100%;
+  }
+
+  .other-content {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
+  .farak-padta-hai {
+    font-size: var(--font-size-32xl);
+    line-height: 77px;
+  }
+
+  .navigation-footer {
+    gap: 38px;
+  }
+
+  .other-waste-card {
     gap: var(--gap-39xl);
   }
-  .metal-waste-card {
-    flex-direction: row;
-    padding: 0 var(--padding-46xl) var(--padding-27xl);
-    box-sizing: border-box;
-    text-align: left;
-    font-size: var(--font-size-21xl);
-    color: var(--color-gray-200);
-    font-family: var(--subheading);
+
+  .shop {
+    gap: 60px;
   }
-  .others,
-  .these-include-rubbers {
-    align-self: stretch;
-    position: relative;
+}
+
+@media screen and (max-width: 450px) {
+  .tap-to-chat {
+    font-size: 35px;
+    line-height: 50px;
   }
-  .others {
-    margin: 0;
-    font-size: var(--font-size-21xl);
-    line-height: 120%;
-    font-weight: 600;
-    font-family: inherit;
+
+  .or-pick-your {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
   }
-  .these-include-rubbers {
-    line-height: 150%;
-    color: var(--color-gray-100);
+
+  .home3 {
+    font-size: var(--small-text-size);
+    line-height: 24px;
   }
-  .scrap-now4 {
-    position: relative;
-    line-height: 150%;
-    font-weight: 500;
+
+  .plastic-waste1 {
+    font-size: var(--subheading-size);
+    line-height: 29px;
   }
-  .button10 {
-    box-shadow: var(--button-shadow);
-    border-radius: var(--br-5xs);
-    background-color: var(--color-gray-200);
-    flex-direction: row;
-    padding: var(--padding-xs) var(--padding-4xl) var(--padding-xs)
-      var(--padding-5xl);
+
+  .paper-waste1,
+  .plastics-are-materials {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
   }
-  .button10,
-  .buttons3,
-  .other-info,
-  .other-info-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+
+  .paper-waste1 {
+    font-size: var(--subheading-size);
   }
-  .buttons3 {
-    flex-direction: row;
-    cursor: pointer;
-    color: var(--color-white);
+
+  .paper-is-manufactured {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
   }
-  .other-info,
-  .other-info-wrapper {
-    flex-direction: column;
-  }
-  .other-info {
-    align-self: stretch;
-    gap: var(--gap-5xl);
-  }
-  .other-info-wrapper {
-    padding: var(--padding-31xl) 0 0;
-    box-sizing: border-box;
-    min-width: 516px;
-    max-width: 100%;
-  }
-  .empty-card-icon {
-    width: 624px;
-    position: relative;
-    max-height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-  }
-  .other-content,
-  .other-description {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: 100%;
-  }
-  .other-description {
-    flex: 1;
-    justify-content: space-between;
+
+  .plastic-waste-card {
     gap: var(--gap-xl);
   }
-  .other-content {
-    width: 1426px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-46xl);
+
+  .content {
+    padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
-  .divider3 {
-    height: 1px;
-    width: 1281px;
-    position: absolute;
-    margin: 0 !important;
-    top: 3px;
-    right: -704px;
-    border-top: 1px solid var(--color-gainsboro-100);
+
+  .metal-waste,
+  .scrap-metal-is {
+    font-size: var(--subheading-size);
+    line-height: 29px;
+  }
+
+  .scrap-metal-is {
+    font-size: var(--font-size-lgi);
+  }
+
+  .metal-waste-description {
+    gap: var(--gap-mid);
+  }
+
+  .electronic-waste {
+    font-size: var(--subheading-size);
+    line-height: 29px;
+  }
+
+  .e-waste-is-electronic {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+
+  .metal-waste-card {
+    padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
+
+  .others {
+    font-size: var(--subheading-size);
+    line-height: 29px;
+  }
+
+  .these-include-rubbers {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+
   .farak-padta-hai {
-    margin: 0;
-    height: 164px;
-    flex: 1;
-    position: relative;
-    font-size: inherit;
-    line-height: 150%;
-    font-weight: 700;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    z-index: 1;
+    font-size: var(--font-size-19xl);
+    line-height: 58px;
   }
-  .footer-content {
-    width: 640px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    max-width: calc(100% - 497px);
-  }
-  .envirogmailin1,
-  .httpswwwenvirocomhome3 {
-    margin: 0;
-  }
+
   .httpswwwenvirocomhome-en3 {
-    position: relative;
-    line-height: 150%;
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
   }
-  .buttons-icon12,
-  .buttons-icon13,
-  .buttons-icon14,
-  .buttons-icon15 {
-    height: 40px;
-    width: 40px;
-    position: relative;
-    border-radius: var(--br-9xs);
-    object-fit: cover;
-  }
-  .httpswwwenvirocomhome-en-parent,
-  .social-icons {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .social-icons {
-    flex-direction: row;
-    padding: 0 var(--padding-xl) 0 0;
-    gap: var(--gap-5xs);
-  }
-  .httpswwwenvirocomhome-en-parent {
-    flex-direction: column;
-    gap: 9px;
-  }
-  .contact-info,
+
   .navigation-footer {
-    flex-shrink: 0;
-    display: flex;
-    box-sizing: border-box;
+    gap: 19px;
   }
-  .contact-info {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-lg);
-    max-width: calc(100% - 794px);
-    text-align: left;
-    font-size: var(--subheading-size);
-    color: var(--color-white);
-    font-family: var(--subheading);
-  }
-  .navigation-footer {
-    align-self: stretch;
-    height: 170px;
-    background-color: var(--color-darkseagreen);
-    overflow: hidden;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--padding-4xl) var(--padding-mid) 8px;
-    gap: 154px;
-    max-width: 100%;
-    text-align: center;
-    font-size: var(--font-size-45xl);
-    color: var(--color-gray-200);
-    font-family: var(--font-jura);
-  }
-  .other-waste-card,
-  .shop {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
+
   .other-waste-card {
-    align-self: stretch;
-    gap: 117px;
-    max-width: 100%;
-    text-align: left;
-    font-size: var(--subheading-size);
-    color: var(--color-gray-200);
-    font-family: var(--subheading);
+    gap: var(--gap-10xl);
   }
+
   .shop {
-    width: 100%;
-    position: relative;
-    background: radial-gradient(50% 50%at 50% 50%, #c3baba, #fff 60%);
-    overflow: hidden;
-    padding: 0 0 76px;
-    box-sizing: border-box;
-    gap: 120px;
-    line-height: normal;
-    letter-spacing: normal;
+    gap: 30px;
   }
-  @media screen and (max-width: 1050px) {
-    .content {
-      padding-bottom: var(--padding-11xl);
-      box-sizing: border-box;
-    }
-    .metal-waste-parent {
-      flex: 1;
-    }
-    .metal-waste-description {
-      flex-wrap: wrap;
-    }
-    .metal-waste-card {
-      padding-bottom: var(--padding-11xl);
-      box-sizing: border-box;
-    }
-  }
-  @media screen and (max-width: 750px) {
-    .tap-to-chat {
-      font-size: 47px;
-      line-height: 66px;
-    }
-    .plastic-waste1 {
-      font-size: var(--font-size-13xl);
-      line-height: 38px;
-    }
-    .plastic-waste-description {
-      min-width: 100%;
-    }
-    .paper-waste1 {
-      font-size: var(--font-size-13xl);
-      line-height: 38px;
-    }
-    .paper-waste-description-wrapper {
-      min-width: 100%;
-    }
-    .plastic-waste-card {
-      gap: 40px;
-    }
-    .content {
-      padding-left: var(--padding-21xl);
-      padding-right: var(--padding-22xl);
-      box-sizing: border-box;
-    }
-    .metal-waste {
-      font-size: var(--font-size-13xl);
-      line-height: 38px;
-    }
-    .ewaste-card,
-    .metal-waste-parent {
-      min-width: 100%;
-    }
-    .metal-waste-description {
-      gap: var(--gap-16xl);
-    }
-    .electronic-waste {
-      font-size: var(--font-size-13xl);
-      line-height: 38px;
-    }
-    .ewaste-info {
-      min-width: 100%;
-    }
-    .metal-waste-content {
-      gap: var(--gap-10xl);
-    }
-    .others {
-      font-size: var(--font-size-13xl);
-      line-height: 38px;
-    }
-    .other-info-wrapper {
-      min-width: 100%;
-    }
-    .other-content {
-      padding-left: var(--padding-13xl);
-      padding-right: var(--padding-13xl);
-      box-sizing: border-box;
-    }
-    .farak-padta-hai {
-      font-size: var(--font-size-32xl);
-      line-height: 77px;
-    }
-    .navigation-footer {
-      gap: 38px;
-    }
-    .other-waste-card {
-      gap: var(--gap-39xl);
-    }
-    .shop {
-      gap: 60px;
-    }
-  }
-  @media screen and (max-width: 450px) {
-    .tap-to-chat {
-      font-size: 35px;
-      line-height: 50px;
-    }
-    .or-pick-your {
-      font-size: var(--font-size-lgi);
-      line-height: 27px;
-    }
-    .home3 {
-      font-size: var(--small-text-size);
-      line-height: 24px;
-    }
-    .plastic-waste1 {
-      font-size: var(--subheading-size);
-      line-height: 29px;
-    }
-    .paper-waste1,
-    .plastics-are-materials {
-      font-size: var(--font-size-lgi);
-      line-height: 29px;
-    }
-    .paper-waste1 {
-      font-size: var(--subheading-size);
-    }
-    .paper-is-manufactured {
-      font-size: var(--font-size-lgi);
-      line-height: 29px;
-    }
-    .plastic-waste-card {
-      gap: var(--gap-xl);
-    }
-    .content {
-      padding-bottom: var(--padding-xl);
-      box-sizing: border-box;
-    }
-    .metal-waste,
-    .scrap-metal-is {
-      font-size: var(--subheading-size);
-      line-height: 29px;
-    }
-    .scrap-metal-is {
-      font-size: var(--font-size-lgi);
-    }
-    .metal-waste-description {
-      gap: var(--gap-mid);
-    }
-    .electronic-waste {
-      font-size: var(--subheading-size);
-      line-height: 29px;
-    }
-    .e-waste-is-electronic {
-      font-size: var(--font-size-lgi);
-      line-height: 29px;
-    }
-    .metal-waste-card {
-      padding-bottom: var(--padding-xl);
-      box-sizing: border-box;
-    }
-    .others {
-      font-size: var(--subheading-size);
-      line-height: 29px;
-    }
-    .these-include-rubbers {
-      font-size: var(--font-size-lgi);
-      line-height: 29px;
-    }
-    .farak-padta-hai {
-      font-size: var(--font-size-19xl);
-      line-height: 58px;
-    }
-    .httpswwwenvirocomhome-en3 {
-      font-size: var(--font-size-lgi);
-      line-height: 29px;
-    }
-    .navigation-footer {
-      gap: 19px;
-    }
-    .other-waste-card {
-      gap: var(--gap-10xl);
-    }
-    .shop {
-      gap: 30px;
-    }
-  }
-  .ai-code{
-    color: white;
-  }
+}
+
+.ai-code {
+  color: white;
+}
